@@ -40,7 +40,7 @@ function Project() {
           {projects.map((project) => (
             <article className="projectSec" key={project.title}>
               <h3>{project.title}</h3>
-              <img src="" alt="" />
+              {/* <img src="" alt="" /> */}
               <p className="projectDescription">{project.description}</p>
 
               <ul className="projectTechnologies" aria-label="Technologies used">

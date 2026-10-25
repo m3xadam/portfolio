@@ -1,8 +1,7 @@
 import "../css/skill.css";
-import html from "../images/skils/html5.png";
-import css from "../images/skils/css3.png";
+import html from "../images/skils/HTML5.svg";
+import css from "../images/skils/CSS3.svg";
 import unity3d from "../images/skils/unity3d.png";
-import godot from "../images/skils/godo.png";
 import js from "../images/skils/js.png";
 import react from "../images/React.svg";
 import tailwind from "../images/Tailwind.svg";
