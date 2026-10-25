@@ -1,0 +1,306 @@
+.awrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    scroll-margin-top: 65px;
+
+}
+
+.asec1{
+    margin-left: 9%;
+    margin-right: 5%;
+    width: 25%;
+    height: 70%;
+    border-right: solid 1px grey;
+}
+
+.asec1p{
+    color: red;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-family: Poppins;
+
+}
+
+.asec1h2{
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.asec1h2 span{
+    color: red;
+}
+
+.amspan{
+    display: inline-block;
+    background: red;
+    width: 24px;
+    height: 6px;
+    line-height: 1.7;
+}
+
+.asec1info{
+    color: rgb(230, 226, 226);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.sec1btn{
+    width: 50%;
+    height: 46px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.sec1btn:hover{
+    color: red;
+    background-color: white;
+    transform: scale(105%);
+    border: none;
+}
+
+.skillfooter{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.skills:first-child{
+    border-left: none;
+    padding-left: 0;
+}
+
+.skills{
+    border-left: solid 1px grey;
+    padding-left: 15px;
+}
+
+.skills h2 span{
+    color: red;
+}
+
+.skills p{
+    font-weight: bold;
+}
+
+.asec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+
+}
+
+.asec2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.abinfo{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.absec{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.absectext h2{
+    color: white;
+    font-size: 15px;
+}
+
+.iconabsec{
+    width: 50px;
+    height: 50px;
+}
+.absectext p{
+    color: white;
+    font-size: 12px;
+}
+
+/* =========================
+   MOBILE ABOUT
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .awrapper {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        padding: 60px 20px;
+
+        gap: 35px;
+    }
+
+    /* Profile image */
+
+    .asec2 {
+        order: 1;
+
+        width: 220px;
+        height: 220px;
+
+        flex-shrink: 0;
+    }
+
+    .asec2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+
+    /* About text */
+
+    .asec1 {
+        order: 2;
+
+        width: 100%;
+        height: auto;
+
+        margin: 0;
+
+        border-right: none;
+
+        text-align: center;
+    }
+
+    .asec1p {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+
+    .asec1h2 {
+        font-size: 30px;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+
+    .asec1info {
+        font-size: 13px;
+        line-height: 21px;
+
+        margin-bottom: 25px;
+    }
+
+    .sec1btn {
+        width: 180px;
+        height: 45px;
+    }
+
+
+    /* Information */
+
+    .abinfo {
+        order: 3;
+
+        width: 100%;
+        height: auto;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 15px;
+    }
+
+    .absec {
+        width: 100%;
+        height: auto;
+
+        min-height: 70px;
+
+        display: flex;
+        align-items: center;
+
+        gap: 10px;
+    }
+
+    .iconabsec {
+        width: 40px;
+        height: 40px;
+
+        flex-shrink: 0;
+    }
+
+    .absectext h2 {
+        font-size: 14px;
+    }
+
+    .absectext p {
+        font-size: 11px;
+        line-height: 16px;
+        word-break: break-word;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .awrapper {
+        padding: 50px 15px;
+        gap: 30px;
+    }
+
+    .asec2 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .asec1h2 {
+        font-size: 28px;
+    }
+
+    .asec1info {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .abinfo {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .absec {
+        min-height: 60px;
+    }
+
+    .sec1btn {
+        width: 160px;
+    }
+}

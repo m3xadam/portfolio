@@ -1,0 +1,274 @@
+.Fwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.fwhelper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 100%;
+    margin-left: 9%;
+}
+
+.fsec1 {
+    width: 20%;
+    display: flex;
+}
+
+.fsec3 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fsec3 span {
+    color: red;
+}
+
+.fsec3 h1 {
+    color: white;
+}
+
+.fsec3 h3 {
+    color: white;
+    font-size: 10px;
+}
+
+.fsec1 img{
+    height: 40px;
+    width: 40px;
+}
+
+.fsec1 h1 {
+    font-size: 32px;
+}
+
+.fsec1 h3 {
+    font-size: 16px;
+}
+
+.fsec1 span {
+    color: red;
+}
+
+.fsec1 p {
+    margin-top: 5px;
+    color: grey;
+}
+
+.ball {
+    border-radius: 50%;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.sec2span {
+    display: inline-block;
+    background-color: red;
+    width: 20px;
+    height: 5px;
+}
+.fsec2{
+    display: flex;
+    gap: 10px;
+}
+
+.fsec2 a {
+    color: white;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
+.fsec2 a:hover {
+    color: red;
+    transform: scale(105%);
+}
+
+.socials {
+    width: 100%;
+    height: 15%;
+}
+
+.footernote {
+    color: grey;
+    margin-left: 9%;
+    margin-bottom: 10px;
+}
+
+.socials img {
+    height: 30px;
+    width: 40px;
+    transition: .3s ease-in-out;
+}
+
+.socials img:hover {
+    transform: scale(110%);
+
+
+}
+
+.footerinput {
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.emailnewsletter {
+    padding: .5rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: grey solid 1px;
+}
+
+.emailnewsletter::placeholder {
+    font-weight: bold;
+}
+
+.footerinput button {
+    border-radius: 10px;
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    left: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid grey;
+    background-color: black;
+}
+
+/* =========================
+   MOBILE FOOTER
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .Fwrapper {
+        width: 100%;
+        height: auto;
+        padding: 35px 20px;
+    }
+
+    .fwhelper {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        gap: 25px;
+    }
+
+    /* Brand */
+
+    .fsec3 {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fsec3 h1 {
+        font-size: 28px;
+    }
+
+    .fsec3 h3 {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+
+    /* Navigation */
+
+    .fsec2 {
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 8px 18px;
+    }
+
+    .fsec2 a {
+        font-size: 12px;
+    }
+
+    /* Socials */
+
+    .fsec1 {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .socials {
+        width: auto;
+        height: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 12px;
+    }
+
+    .socials img {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .Fwrapper {
+        padding: 30px 15px;
+    }
+
+    .fwhelper {
+        gap: 20px;
+    }
+
+    .fsec3 h1 {
+        font-size: 25px;
+    }
+
+    .fsec2 {
+        gap: 10px 15px;
+    }
+
+    .fsec2 a {
+        font-size: 11px;
+    }
+
+    .socials {
+        gap: 10px;
+    }
+
+    .socials img {
+        width: 27px;
+        height: 27px;
+    }
+}

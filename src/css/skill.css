@@ -1,0 +1,207 @@
+.Skillwrapper {
+    border-top: solid 1px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    scroll-margin-top: 65px;
+    padding-top: 20px;
+}
+
+.skillhelper{
+    margin-top: 5px;
+    margin-left: 9%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 25%;
+}
+
+.box1 p{
+    
+    color: grey;
+    font-size: 12px;
+}
+.box1 button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.box2 h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box2 p{
+    font-size: 11px;
+    color: grey;
+    font-weight: 500;
+}
+
+.box1 span{
+    color: red;
+}
+
+.box2{
+    width: 20%;
+    height: 90%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.skillset{
+    width: 100%;
+    height: 10%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.skillset img{
+    width: 20px;
+    height: 20px;
+}
+
+/* =========================
+   MOBILE SKILLS
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .Skillwrapper {
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+
+        padding: 50px 20px;
+    }
+
+    .skillhelper {
+        width: 100%;
+        height: auto;
+
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    /* Intro */
+
+    .box1 {
+        width: 100%;
+        height: auto;
+
+        gap: 12px;
+    }
+
+    .box1 h1 {
+        color: white;
+        font-size: 32px;
+    }
+
+    .box1 p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .box1 button {
+        width: 140px;
+        height: 40px;
+    }
+
+
+    /* Skill categories */
+
+    .box2 {
+        width: 100%;
+        height: auto;
+
+        padding: 20px;
+
+        gap: 12px;
+
+        border-radius: 12px;
+    }
+
+    .box2 h2 {
+        color: white;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .skillset {
+        width: 100%;
+        height: auto;
+
+        min-height: 35px;
+
+        gap: 12px;
+    }
+
+    .skillset img {
+        width: 25px;
+        height: 25px;
+
+        object-fit: contain;
+    }
+
+    .box2 p {
+        font-size: 13px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .Skillwrapper {
+        padding: 45px 15px;
+    }
+
+    .box1 h1 {
+        font-size: 28px;
+    }
+
+    .box1 p {
+        font-size: 12px;
+    }
+
+    .box2 {
+        padding: 18px;
+    }
+
+    .box2 h2 {
+        font-size: 15px;
+    }
+
+    .box2 p {
+        font-size: 12px;
+    }
+
+    .skillset img {
+        width: 23px;
+        height: 23px;
+    }
+    .unityicon{
+        filter: invert(1);
+    }
+}

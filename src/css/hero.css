@@ -1,0 +1,329 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins, sans-serif
+}
+
+.wrapper {
+    scroll-margin-top: 65px;
+    scroll-behavior: smooth;
+    background-image: url("../images/herobg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: calc(100vh - 65px);
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.passport{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.herosection {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100Vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.miniball{
+    display: inline-block;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.miniball2{
+    display: inline-block;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.infowrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+    width: 85%;
+}
+
+.sec1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+}
+
+.sec2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    overflow-y: hidden;
+}
+.herosection .intro{
+    font-weight: medium;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.herosection .intro span{
+    font-size: .5rem;
+}
+
+.herosection h1{
+    font-size: 70px;
+    font-weight: bolder; 
+}
+
+.herosection h1 span{
+    font-size: 1rem;
+}
+
+.herosection h4{
+    font-size: 32px;
+    font-weight: bold;
+    color:grey; 
+    margin-bottom: 20px; 
+}
+
+.herosection h4 span{
+    color: red;
+}
+
+.herosection .textinfo{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+/* buttons*/
+.infobuttons{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.vmp{
+    width: 150px;
+    font-weight: medium;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.vmp:hover{
+    color: black;
+    background-color: white;
+    border: solid 1px grey;
+    transform: scale(110%);
+}
+
+.cm{
+    font-weight: medium;
+    width: 150px;
+    height: 35px;
+    border: grey solid 1px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.cm:hover{
+    color: white;
+    background-color: black;
+    transform: scale(110%);
+}
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.footer a{
+    width: 30px;
+    height: 30px;
+}
+
+.footer a img{
+    width: 100%;
+    height: 100%;
+}
+
+/* =========================
+   MOBILE HERO
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        min-height: calc(100vh - 65px);
+        margin-top: 65px;
+        background-position: center;
+    }
+
+    .herosection {
+        min-height: calc(100vh - 65px);
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .infowrapper {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    /* Profile image */
+
+    .sec2 {
+        width: min(70vw, 280px);
+        height: min(70vw, 280px);
+        flex-shrink: 0;
+    }
+
+    .passport {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Text */
+
+    .sec1 {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .herosection .intro {
+        font-size: 13px;
+        letter-spacing: 3px;
+        margin-bottom: 8px;
+    }
+
+    .herosection h1 {
+        font-size: clamp(38px, 10vw, 55px);
+        line-height: 1.05;
+        margin-bottom: 10px;
+    }
+
+    .herosection h1 span {
+        font-size: 0.7rem;
+    }
+
+    .herosection h4 {
+        font-size: clamp(20px, 5vw, 28px);
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+
+    .herosection .textinfo {
+        font-size: 15px;
+        line-height: 24px;
+        max-width: 500px;
+        margin-bottom: 25px;
+    }
+
+    /* Buttons */
+
+    .infobuttons {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+
+    .vmp,
+    .cm {
+        width: 145px;
+        height: 40px;
+    }
+
+    /* Social icons */
+
+    .footer {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer a {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+
+/* Smaller phones */
+
+@media (max-width: 480px) {
+
+    .herosection {
+        padding: 40px 15px;
+    }
+
+    .infowrapper {
+        gap: 30px;
+    }
+
+    .sec2 {
+        width: 220px;
+        height: 220px;
+    }
+
+    .herosection h1 {
+        font-size: 36px;
+    }
+
+    .herosection h4 {
+        font-size: 19px;
+    }
+
+    .herosection .textinfo {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .infobuttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .vmp,
+    .cm {
+        width: 180px;
+    }
+}

@@ -1,0 +1,232 @@
+.Serwrapper {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+}
+
+.Sspan {
+    display: inline-block;
+    background: red;
+    width: 24px;
+    height: 6px;
+    line-height: 1.7;
+}
+
+.textservices{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.asecinfo{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.textservices h1{
+    color: black;
+    font-size: 40px;
+}
+
+.textservices button{
+    color: white;
+    background-color: red;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
+.textservices button:hover{
+    background-color: rgb(255, 65, 65);
+}
+.Spanred{
+    color: red;
+}
+
+.swp{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Poppins;
+}
+
+.serviceswrapper{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.swhelper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 9%;
+}
+
+.servicesSec{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    padding: 1rem;
+    border-radius: 15px;
+    width: 22%;
+    height: 200px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.servicesSec p{
+    font-size: 10px;
+}
+.servicesSec:hover{
+    transform: scale(105%);
+    box-shadow: 0 4px 15px rgba(255,0,0,0.3);
+}
+
+.servicesSec img{
+    width: 20%;
+    height: 20%;
+}
+
+/* =========================
+   MOBILE SERVICES
+   ========================= */
+
+@media (max-width: 768px) {
+
+    .Serwrapper {
+        width: 100%;
+        height: auto;
+        padding: 60px 20px;
+        color: white;
+    }
+
+    .swhelper {
+        width: 100%;
+        margin-left: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 35px;
+    }
+
+    /* Text section */
+
+    .textservices {
+        width: 100%;
+        height: auto;
+    }
+
+    .swp {
+        font-size: 12px;
+    }
+
+    .textservices h1 {
+        font-size: 38px;
+        line-height: 1.1;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .asecinfo {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .textservices button {
+        width: 150px;
+        height: 40px;
+        margin-top: 5px;
+    }
+
+    /* Services */
+
+    .serviceswrapper {
+        width: 100%;
+        height: auto;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 15px;
+    }
+
+    .servicesSec {
+        width: 100%;
+        height: 190px;
+
+        padding: 18px;
+
+        border-radius: 15px;
+    }
+
+    .servicesSec img {
+        width: 45px;
+        height: 45px;
+        object-fit: contain;
+        margin-bottom: 5px;
+    }
+
+    .servicesSec h4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .servicesSec p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+
+
+/* =========================
+   SMALL PHONES
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .Serwrapper {
+        padding: 50px 15px;
+    }
+
+    .textservices h1 {
+        font-size: 34px;
+    }
+
+    .serviceswrapper {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .servicesSec {
+        height: auto;
+        min-height: 160px;
+    }
+
+    .servicesSec img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .servicesSec h4 {
+        font-size: 16px;
+    }
+
+    .servicesSec p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
