@@ -69,7 +69,7 @@ function Skills() {
             <p>Node.js</p>
           </div>
           <div className="skillset">
-            <img src={express} alt="" />
+            <img src={express} alt="" className="expressicon" />
             <p>Express.js </p>
           </div>
           <div className="skillset">

@@ -103,7 +103,7 @@
 /* =========================
    MOBILE SERVICES
    ========================= */
-@media (max-width: 956px) {
+@media (max-width: 968px) {
 .Serwrapper {
         width: 100%;
         height: auto;
@@ -208,6 +208,7 @@
     }
 
     .servicesSec h4 {
+        color:white;
         font-size: 15px;
         line-height: 20px;
     }
@@ -248,7 +249,12 @@
         height: 40px;
     }
 
+    .textservices h1 {
+        color: white;
+    }
+
     .servicesSec h4 {
+        color:white;
         font-size: 16px;
     }
 

@@ -18,7 +18,7 @@
 }
 
 .psec1h2{
-    color: white;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -99,7 +99,7 @@
 
 @media (max-width: 956px) {
     .psec1h2{
-        color: #171717;
+        color: white;
     }
 }
 
@@ -121,6 +121,9 @@
 
     .pwhelper {
         width: 90%;
+    }
+    .psec1h2{
+        color:white;
     }
 
     .projectwrapper {

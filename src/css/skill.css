@@ -78,10 +78,25 @@
 /* =========================
    MOBILE SKILLS
    ========================= */
+@media (max-width: 968px) {
+    .Skillwrapper{
+        height: 400px;
+    }
+}
+
 
 @media (max-width: 768px) {
     body{
         background-color: black;
+    }
+
+    .unityicon{
+        filter: invert(1);
+    }
+
+    .expressicon{
+        
+        filter: invert(1);
     }
 
     .Skillwrapper {
@@ -208,4 +223,9 @@
     .unityicon{
         filter: invert(1);
     }
+     .expressicon{
+        
+        filter: invert(1);
+    }
+
 }
