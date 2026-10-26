@@ -19,7 +19,6 @@ function Home() {
       <Services />
       <AboutMe />
       <Project />
-      <Skills />
       <Footer />
     </>
   );
