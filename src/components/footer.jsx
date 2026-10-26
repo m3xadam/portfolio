@@ -3,7 +3,7 @@ import linkedin from "../images/linkedin.svg";
 import x from "../images/x.svg";
 import github from "../images/github.svg";
 import mail from "../images/mail.svg";
-import discord from "../images/linkedin.svg";
+import instagram from "../images/instagram.svg";
 
 function Footer() {
   return (
@@ -29,20 +29,20 @@ function Footer() {
 
         <div className="fsec1">
           <div className="socials">
-            <a href="">
+            <a href="https://github.com/m3xadam/m3xadam">
               <img src={github} alt="github" />
             </a>
-            <a href="">
+            <a href="https://www.x.com/m3x_adam">
               <img src={x} alt="x" />
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/m3x-adam">
               <img src={linkedin} alt="linkedin" />
             </a>
-            <a href="">
+            <a href="mailto:businessinqdraxarmy@gmail.com">
               <img src={mail} alt="mail" />
             </a>
-            <a href="">
-              <img src={linkedin} alt="Discord" />
+            <a href="https://www.instagram.com/m3x_adam">
+              <img src={instagram} alt="Instagram" />
             </a>
           </div>
         </div>

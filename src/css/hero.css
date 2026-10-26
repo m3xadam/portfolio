@@ -170,6 +170,8 @@
 .footer a{
     width: 30px;
     height: 30px;
+    background : black;
+    border-radius: 5px;
 }
 
 .footer a img{

@@ -35,16 +35,16 @@ function Hero() {
               <button className="cm">Contact Me</button>
             </div>
             <div className="footer">
-              <a href="">
+              <a href="https://github.com/m3xadam/m3xadam">
                 <img src={github} alt="Github" />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/m3x-adam">
                 <img src={linkedin} alt="Linkedin" />
               </a>
-              <a href="">
+              <a href="https://www.x.com/m3x_adam">
                 <img src={x} alt="X" />
               </a>
-              <a href="">
+              <a href="mailto:businessinqdraxarmy@gmail.com">
                 <img src={mail} alt="Mail" />
               </a>
             </div>
