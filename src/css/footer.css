@@ -152,6 +152,11 @@
 /* =========================
    MOBILE FOOTER
    ========================= */
+@media (max-width: 956px) {
+    .fsec1 img{
+       width: 30px
+    }
+}
 
 @media (max-width: 768px) {
 

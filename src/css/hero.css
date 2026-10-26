@@ -180,7 +180,7 @@
    MOBILE HERO
    ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 956px) {
 
     .wrapper {
         min-height: calc(100vh - 65px);

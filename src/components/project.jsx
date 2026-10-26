@@ -1,16 +1,20 @@
 import "../css/project.css";
 
+import focusly from "../images/focusly.png";
+
 const projects = [
   {
-    title: "Portfolio Website",
+    title: "focusly",
+    image: focusly,
     description:
-      "A responsive personal portfolio showcasing projects, skills, and contact information.",
+      "A responsive personal todo task showcasing tasks and information.",
     technologies: ["React", "CSS", "JavaScript"],
-    source: "https://github.com/your-username/portfolio",
-    live: "https://your-portfolio-demo.com",
+    source: "https://github.com/your-username/focusly",
+    live: "https://your-focusly-demo.com",
   },
   {
     title: "Task Manager",
+    image: "",
     description:
       "A simple task manager for organizing work, tracking progress, and staying productive.",
     technologies: ["React", "CSS", "JavaScript"],
@@ -19,6 +23,7 @@ const projects = [
   },
   {
     title: "Weather Dashboard",
+    image: "",
     description:
       "A weather dashboard that presents current conditions and forecasts in a clear layout.",
     technologies: ["React", "API", "CSS"],
@@ -40,7 +45,7 @@ function Project() {
           {projects.map((project) => (
             <article className="projectSec" key={project.title}>
               <h3>{project.title}</h3>
-              {/* <img src="" alt="" /> */}
+              <img src={project.image} alt={project.title} />
               <p className="projectDescription">{project.description}</p>
 
               <ul className="projectTechnologies" aria-label="Technologies used">

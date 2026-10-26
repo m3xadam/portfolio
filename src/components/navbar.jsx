@@ -9,7 +9,7 @@ function NavBar() {
 
 
     <nav className="Navbar">
-      <a onClick={() => navigate("/home")} href="" className="logo">
+      <a onClick={() => navigate("/")} href="" className="logo">
         M3X<span>Dev</span>
       </a>
 

@@ -103,6 +103,33 @@
 /* =========================
    MOBILE SERVICES
    ========================= */
+@media (max-width: 956px) {
+.Serwrapper {
+        width: 100%;
+        height: auto;
+        padding: 60px 20px;
+        color: white;
+    }
+
+    .swhelper {
+        width: 100%;
+        margin-left: 0;
+
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+
+        gap: 35px;
+    }
+
+    .textservices h1 {
+        color: black;
+    }
+
+    .serviceswrapper h4{
+        color: black;
+    }
+}
 
 @media (max-width: 768px) {
 
