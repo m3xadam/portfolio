@@ -2,15 +2,15 @@
     display: flex;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: black;
     scroll-margin-top: 65px;
 
 }
 
 .asec1{
-    margin-left: 9%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     width: 25%;
     height: 70%;
     border-right: solid 1px grey;
@@ -48,7 +48,7 @@
 
 .asec1info{
     color: rgb(230, 226, 226);
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 10px;
 }
 
@@ -103,9 +103,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: 100%;
+    width: 35%;
+    height: 80%;
 
+}
+
+.asec2 img{
+    width: 100%;
+    height: 100%;
 }
 
 .asec2 img{
@@ -140,7 +145,7 @@
 }
 .absectext p{
     color: white;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 /* =========================

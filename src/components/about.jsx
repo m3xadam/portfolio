@@ -8,6 +8,11 @@ import availability from "../images/clock.svg";
 
 
 function AboutMe() {
+
+  function goto(){
+    window.open("https://www.fiverr.com/s/emmkKzm", "_blank");
+  }
+
   return (
     <div className="awrapper" id="about">
       <div className="asec2">
@@ -46,7 +51,7 @@ function AboutMe() {
                 <p>MOTIVATION</p>
             </div>
         </div>*/}
-        <button className="sec1btn">Hire Me</button>
+        <button className="sec1btn" onClick={goto}>Hire Me</button>
       </div>
 
       <div className="abinfo">

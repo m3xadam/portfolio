@@ -1,0 +1,31 @@
+.resumebtn{
+    display: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .resumebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    transform: rotate(-90deg);
+
+
+    left: 83%;
+    bottom: 5%;
+
+    cursor: pointer;
+}
+
+.resumebtn:hover{
+    color: red;
+    background-color: white;
+}
+}

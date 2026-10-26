@@ -11,6 +11,20 @@
     margin: 0 auto;
 }
 
+.pswp{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.psec1h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.psec1h2 span{
+    color: red;
+}
 .projectwrapper {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -47,7 +47,8 @@
     }
 
     .progress-num {
-        font-size: 9px;
+        color: red;
+        font-size: 12px;
     }
 }
 

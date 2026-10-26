@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom";
 
+import Resume from "../components/resume"
 import NavBar from "../components/navbar";
 import Hero from "../components/hero";
 import ScollBar from "../components/scroll";
@@ -14,6 +15,7 @@ function Home() {
   return (
     <>
       <ScollBar />
+      <Resume />
       <NavBar />
       <Hero />
       <Services />

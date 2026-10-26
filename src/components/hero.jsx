@@ -23,7 +23,7 @@ function Hero() {
               ADAM ABDULLAHI <span className="miniball2"></span>
             </h1>
             <h4>
-              Web Developer <span>/</span> Game Developer
+              Full Stack<span> Web Developer</span>
             </h4>
             <p className="textinfo">
               I build digital experiences, from games to web applications.{" "}
