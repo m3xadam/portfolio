@@ -5,6 +5,10 @@ import { useNavigate } from "react-router-dom";
 function NavBar() {
   const navigate = useNavigate();
 
+  function gotor(){
+        window.open("", "_blank");
+    }
+
   return (
 
 
@@ -26,7 +30,7 @@ function NavBar() {
       </ul>
       <ul className="navbarButton">
         <li>
-          <a href="#home">Home</a>
+          <a onClick={() => navigate("/")} href="">Home</a>
         </li>
         <li>
           <a href="#project">Project</a>
@@ -35,7 +39,7 @@ function NavBar() {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <button className="cvButton">Resume</button>
+      <button className="cvButton" onClick={gotor}>Resume</button>
     </nav>
   );
 }
