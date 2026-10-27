@@ -1,16 +1,99 @@
-# React + Vite
+M3xdev — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio.
 
-Currently, two official plugins are available:
+This portfolio showcases my projects, skills, and experience as I continue building my career in software development. It focuses mainly on modern web development while also highlighting my experience with C++ and game development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Live Portfolio
 
-## React Compiler
+"Visit M3xdev Portfolio" (https://m3xadam.github.io/portfolio/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👨‍💻 About Me
 
-## Expanding the ESLint configuration
+I'm Abdullahi Adam Isa, a developer interested in building practical, interactive, and responsive software.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+My main areas of interest include:
+
+- 🌐 Web Development
+- ⚛️ React & JavaScript
+- 🎨 Responsive UI Design
+- 💻 C++
+- 🎮 Game Development
+- 🧩 Problem Solving
+
+I'm continuously learning and improving by building real projects rather than only studying theory.
+
+🛠️ Technologies
+
+Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Vite
+
+Programming
+
+- C++
+- JavaScript
+- C#
+
+Tools
+
+- Git
+- GitHub
+- VS Code
+- Figma
+
+Currently Learning
+
+- Advanced React
+- Modern JavaScript
+- Backend Development
+- Game Development
+
+📂 Featured Projects
+
+Focusly
+
+A responsive personal productivity and task-management application built with React.
+
+Technologies: React, JavaScript, CSS
+
+File Transfer
+
+A C++ project focused on transferring files between systems while exploring file handling and networking concepts.
+
+Technologies: C++
+
+Game Development
+
+I'm also exploring game development and currently experimenting with gameplay systems, movement, combat, and game architecture.
+
+Technologies: C#, Godot
+
+📊 What I'm Working On
+
+I'm currently focused on:
+
+- Building more React projects
+- Improving my UI/UX skills
+- Learning backend development
+- Strengthening my C++ programming
+- Exploring game development
+- Building projects that can be used in real-world applications
+
+📫 Contact
+
+If you'd like to connect or discuss a project:
+
+Email: adamabdullahi0216@gmail.com
+
+GitHub: "@m3xadam" (https://github.com/m3xadam)
+
+---
+
+⚡ M3xdev
+
+«Build. Learn. Improve. Repeat.»
