@@ -135,6 +135,7 @@ form button {
     width: 120px;
     height: 35px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 
