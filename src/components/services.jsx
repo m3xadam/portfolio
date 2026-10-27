@@ -7,6 +7,11 @@ import gear from "../images/gear.svg";
 
 
 function Services() {
+
+  function handleClick() {
+    window.open("https://www.fiverr.com/s/P449ooo", "_blank");
+  }
+
   return (
     <div className="Serwrapper">
       <div className="swhelper">
@@ -23,7 +28,7 @@ function Services() {
             your ideas to lie with clean code and great design.
           </p>
 
-          <button> Get a Quote</button>
+          <button onClick={handleClick}> Get a Quote</button>
         </div>
 
         <div className="serviceswrapper">

@@ -1,6 +1,6 @@
-/* ...existing code... */
 
 .Pwrapper {
+    scroll-snap-align: start;
     height: auto;
     padding: 3rem 0;
 }

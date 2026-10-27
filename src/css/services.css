@@ -3,6 +3,7 @@
     height: 320px;
     display: flex;
     align-items: center;
+    scroll-snap-align: start;
 }
 
 .Sspan {

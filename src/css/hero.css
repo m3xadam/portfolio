@@ -4,7 +4,8 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: Poppins, sans-serif
+    font-family: Poppins, sans-serif;
+    scroll-snap-align: start;
 }
 
 .wrapper {
@@ -139,6 +140,10 @@
 
 .cm{
     font-weight: medium;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-weight: bold;
     width: 150px;
     height: 35px;
     border: white solid 1px;

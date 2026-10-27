@@ -8,6 +8,7 @@ import AboutMe from "../components/about";
 import Services from "../components/services";
 import Skills from "../components/skills"
 import Project from "../components/project";
+import Contact from "../components/contact";
 import Footer from "../components/footer";
 import "../css/home.css";
 
@@ -22,6 +23,7 @@ function Home() {
       <AboutMe />
       <Project />
       <Skills />
+      <Contact />
       <Footer />
     </>
   );

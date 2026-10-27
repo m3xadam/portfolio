@@ -5,6 +5,7 @@
     display: flex;
     scroll-margin-top: 65px;
     padding-top: 20px;
+    scroll-snap-align: start;
 }
 
 .skillhelper{

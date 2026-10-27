@@ -32,7 +32,7 @@ function Hero() {
             </p>
             <div className="infobuttons">
               <button onClick={()=> navigate("/project")} className="vmp">View My Projects</button>
-              <button className="cm">Contact Me</button>
+              <a className="cm" href="#contact">Contact Me</a>
             </div>
             <div className="footer">
               <a href="https://github.com/m3xadam/m3xadam">
